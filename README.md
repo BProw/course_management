@@ -57,6 +57,3 @@ rails server
 * **Image resizing & background color matching**  
 
 	* https://www12.lunapic.com/editor/
-
-
-![sq_student](sg_students1.jpg)
