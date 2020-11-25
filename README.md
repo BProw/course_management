@@ -1,6 +1,6 @@
 # README
 
-## Assignment from CS 3710: Build a Course Management replacement using Ruby on Rails ##  
+# Assignment from CS 3710: Build a Course Management replacement using Ruby on Rails #  
 
 Ruby 2.6.3  
 Rails 6.0.3.3
