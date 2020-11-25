@@ -6,6 +6,7 @@
 
 Build a Course Management replacement using Ruby on Rails. Manipulate db w/ CRUD ops & Active Record Associations.
 
+**System requirements:**
 Ruby 2.6.3  
 Rails 6.0.3.3  
 sqlite3  
