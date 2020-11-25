@@ -13,7 +13,8 @@ sqlite3
 yarn v1.22.4 (yarn install --check-files) for browser view.
 
 **Load records from seeds.rb:**
-```bash 
+```bash  
+rails db:migrate
 rails db:seed   
 ``` 
 **Open 3000:**
