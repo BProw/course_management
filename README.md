@@ -7,8 +7,8 @@
 Build a Course Management replacement using Ruby on Rails. Manipulate db w/ CRUD ops & Active Record Associations.
 
 Ruby 2.6.3  
-Rails 6.0.3.3
-sqlite3
+Rails 6.0.3.3 
+sqlite3 
 yarn v1.22.4 (yarn install --check-files) for browser view.
 
 **Load records from seeds.rb:**
