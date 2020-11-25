@@ -59,4 +59,4 @@ rails server
 	* https://www12.lunapic.com/editor/
 
 
-![sq_student](/ecm/course_mng/app/assets/images/sg_students1.jpg)
+![sq_student](sg_students1.jpg)
