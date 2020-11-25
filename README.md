@@ -4,7 +4,7 @@
 
 ## Description
 
-Build a simple Course Management replacement using Ruby on Rails. Manipulate db w/ CRUD ops & Active Record Associations, Validations, and Authentication. 
+Build a simple Course Management replacement using Ruby on Rails. Manipulate db w/ CRUD ops & Active Record Associations, Validations, & Authentication. 
 
 **System requirements:**  
 Ruby 2.6.3  
