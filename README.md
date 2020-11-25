@@ -2,12 +2,13 @@
 
 Ruby 2.6.3  
 Rails 6.0.3.3
+yarn v1.22.4 (yarn install --check-files) for browser view.
 
 **Load records from seeds.rb:**
 ```bash 
 rails db:seed   
 ``` 
-**Records should display in browser view (Had issues with this):**
+**Open 3000:**
 ```bash
 rails server
 ```
@@ -43,7 +44,6 @@ rails server
 * **All images used came from the Marketing Toolkit portal provided to all MSU Denver account holders.**  
 
 	* https://msudenver.sharepoint.com/sites/ClientServices/MarketingToolkit
-
 
 * **Image resizing & background color matching**  
 
