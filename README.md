@@ -17,7 +17,7 @@ yarn v1.22.4 (yarn install --check-files) for browser view.
 rails db:migrate
 rails db:seed   
 ``` 
-**Open 3000:**
+**View in browser:**
 ```bash
 rails server
 ```
