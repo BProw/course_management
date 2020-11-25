@@ -1,6 +1,8 @@
 # README
 
-**Assignment from CS 3710 - Fall 2020 - Dr. Steve Beaty ** 
+**Assignment from CS 3710 - Fall 2020 - Dr. Steve Beaty** 
+
+## Description
 
 Build a Course Management replacement using Ruby on Rails  
 
