@@ -1,0 +1,58 @@
+
+<div class="logo">
+  <%= active_link_to image_tag("msu_logo.jpg", :size => "125x125"), 
+      "https://www.msudenver.edu/"%>
+</div>
+
+<div class="nav_links">
+  <%= active_link_to 'Courses', '/courses'%>
+  <%= active_link_to 'Departments', '/departments'%>
+  <%= active_link_to 'Professors', '/professors'%>
+  <%= active_link_to 'Sections', '/sections'%>
+  <%= active_link_to 'Students', '/students'%>
+</div>
+
+<div class="line">
+  <hr>
+  </hr>
+</div>
+
+<h1>Semesters</h1>
+  <div class="search">
+    <%= form_tag(search_semesters_url, method: "get") do %>
+    <%= label_tag(:query, "Search for semster:") %>
+    <%= text_field_tag(:query, params[:query]) %>
+    <%= submit_tag("Search", :query => nil) %>
+    <% end %>
+  </div >
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @semesters.each do |semester| %>
+      <tr>
+        <td><%= semester.name %></td>
+        <td><%= link_to 'Show', semester %></td>
+        <td><%= link_to 'Edit', edit_semester_path(semester) %></td>
+        <td><%= link_to 'Destroy', semester, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+<div class="right_images">
+  <%= active_link_to image_tag("campus_winter.jpg", :size => "450x300"), 
+      "https://www.msudenver.edu/catalog/"%>
+</div>
+
+</table>
+
+<br>
+
+<%= link_to 'New Semester', new_semester_path %>
+

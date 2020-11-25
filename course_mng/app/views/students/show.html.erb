@@ -1,0 +1,22 @@
+
+<p>
+  <strong>Name:</strong>
+  <%= @student.name %>
+</p>
+
+<p>
+  <strong>Identifier:</strong>
+  <%= @student.identifier %>
+</p>
+
+<p>
+ <strong>Sections:</strong> </p>
+<ul>
+  <% @student.sections.each do |section| %>
+    <li><%= section.course.number %> <%= section.professor.name %> 
+        <%= section.semester.name %> <%= section.year %>  </li>
+  <% end %>  
+</ul>
+
+<%= link_to 'Edit', edit_student_path(@student) %> |
+<%= link_to 'Back', students_path %>

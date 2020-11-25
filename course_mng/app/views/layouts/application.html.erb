@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hw2</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <div class='login'>
+          <% if current_user %>
+            <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+
+          <% else %>
+            <%= link_to 'Login', new_user_session_path %>
+            <%= link_to 'Register', new_user_registration_path %>
+
+          <% end %>
+    </div>
+    
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+
+    <%= yield %>
+  </body>
+
+  <div class="name">
+    <b>Brian LeProwse 2020</b>
+  </div>
+
+  <div class="logo_bottom">
+    <%= image_tag("dtown.png", :size => "200x100") %>
+  </div>
+
+  <div class="line">
+    <hr>
+    </hr>
+  </div>
+</html>
