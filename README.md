@@ -4,7 +4,7 @@
 
 ## Description
 
-Build a simple Course Management replacement using Ruby on Rails. Manipulate db w/ CRUD ops & Active Record Associations.
+Build a simple Course Management replacement using Ruby on Rails. Manipulate db w/ CRUD ops & Active Record Associations, Validations, and Authentication. 
 
 **System requirements:**  
 Ruby 2.6.3  
@@ -12,12 +12,12 @@ Rails 6.0.3.3
 sqlite3  
 yarn v1.22.4 (yarn install --check-files) for browser view.
 
-**Migrate & pre-populate db records from seeds.rb:**
+**Migrate & pre-populate db records from seeds.rb (course_mng/ directory):**
 ```bash  
 rails db:migrate
 rails db:seed   
 ``` 
-**View in browser:**
+**View in browser (course_mng/ directory):**
 ```bash
 rails server
 ```
