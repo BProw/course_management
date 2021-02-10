@@ -22,6 +22,9 @@ rails db:seed
 rails server
 ```
 
+![Example](screengrab.jpg)  
+
+
 ## Sources
 
 **Rails & CSS helpers, & image source:**
