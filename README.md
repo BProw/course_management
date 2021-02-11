@@ -22,6 +22,9 @@ rails db:seed
 rails server
 ```
 
+**Navigate to [local server](http://localhost:3000/)**
+
+
 ![Example](screengrab.jpg)  
 
 
